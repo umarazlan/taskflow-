@@ -1,0 +1,6 @@
+import{c as d,j as a,A as x,N as i}from"./index-BkpNlKQ9.js";/**
+ * @license lucide-react v0.460.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const g=d("Pen",[["path",{d:"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",key:"1a8usu"}]]);function v({users:r=[],max:n=4,size:e="sm",className:c,onMoreClick:l}){const o=r.slice(0,n),s=r.length-n;return a.jsxs("div",{className:i("flex items-center -space-x-2",c),children:[o.map((t,m)=>a.jsx("div",{className:"relative transition-transform hover:z-10 hover:scale-105 ring-2 ring-white dark:ring-slate-900 rounded-full",children:a.jsx(x,{src:t.avatar,name:t.name,alt:t.name,size:e})},t.id||t.email||m)),s>0&&a.jsxs("div",{onClick:l,className:i("relative z-0 flex items-center justify-center rounded-full bg-slate-200 text-slate-700 font-semibold","ring-2 ring-white dark:ring-slate-900 dark:bg-slate-800 dark:text-slate-300",e==="xs"&&"h-6 w-6 text-[10px]",e==="sm"&&"h-7 w-7 text-xs",e==="md"&&"h-9 w-9 text-xs",e==="lg"&&"h-11 w-11 text-sm",l&&"cursor-pointer hover:bg-slate-300 dark:hover:bg-slate-700"),title:`${s} more members`,children:["+",s]})]})}export{v as A,g as P};
